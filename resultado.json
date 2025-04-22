@@ -4,12 +4,12 @@
       "auser_id": 1,
       "customer_id": 101,
       "auser_username": "usuario_admin",
-      "auser_first_seen_dt": "2025-04-22T07:08:09.785130+00:00",
+      "auser_first_seen_dt": "2025-04-22T07:14:14.732656+00:00",
       "auser_first_seen_by": "system",
-      "auser_last_seen_dt": "2025-04-22T07:08:09.785143+00:00",
+      "auser_last_seen_dt": "2025-04-22T07:14:14.732670+00:00",
       "auser_last_seen_by": "audit_scan",
-      "created_dt": "2025-04-22T07:08:09.785145+00:00",
-      "updated_dt": "2025-04-22T07:08:09.785147+00:00"
+      "created_dt": "2025-04-22T07:14:14.732673+00:00",
+      "updated_dt": "2025-04-22T07:14:14.732674+00:00"
     }
   ],
   "assets": [
@@ -36,25 +36,25 @@
       "asset_tech_owner": "Diego",
       "asset_tech_owner_contact": "Diego@gmail.com",
       "asset_risk_score_sum": 65,
-      "asset_last_reported_dt": "2025-04-22T07:08:09.788594+00:00",
+      "asset_last_reported_dt": "2025-04-22T07:14:14.736846+00:00",
       "asset_impact_confidentiality": 3,
       "asset_impact_integrity": 4,
       "asset_impact_availability": 5,
       "asset_impact_criticality": 4,
       "socia_risk": "MEDIO",
-      "socia_risk_updated_dt": "2025-04-22T07:08:09.788598+00:00",
-      "created_dt": "2025-04-22T07:08:09.788600+00:00",
-      "updated_dt": "2025-04-22T07:08:09.788602+00:00",
+      "socia_risk_updated_dt": "2025-04-22T07:14:14.736856+00:00",
+      "created_dt": "2025-04-22T07:14:14.736859+00:00",
+      "updated_dt": "2025-04-22T07:14:14.736862+00:00",
       "assets_ausers": [
         {
           "asaus_id": 5001,
           "auser_id": 1,
-          "asaus_first_seen_dt": "2025-04-22T07:08:09.788939+00:00",
+          "asaus_first_seen_dt": "2025-04-22T07:14:14.737456+00:00",
           "asaus_first_seen_by": "scan",
-          "asaus_last_seen_dt": "2025-04-22T07:08:09.788943+00:00",
+          "asaus_last_seen_dt": "2025-04-22T07:14:14.737463+00:00",
           "asaus_last_seen_by": "monitor",
-          "created_dt": "2025-04-22T07:08:09.788945+00:00",
-          "updated_dt": "2025-04-22T07:08:09.788946+00:00"
+          "created_dt": "2025-04-22T07:14:14.737466+00:00",
+          "updated_dt": "2025-04-22T07:14:14.737468+00:00"
         }
       ],
       "assets_interfaces": [
@@ -62,24 +62,24 @@
           "asint_id": 2001,
           "asint_unique_id": "00:1A:2B:3C:4D:5E",
           "mac_address": "00:1A:2B:3C:4D:5E",
-          "first_seen_dt": "2025-04-22T07:08:09.789166+00:00",
+          "first_seen_dt": "2025-04-22T07:14:14.737823+00:00",
           "first_seen_by": "deployment",
-          "last_seen_dt": "2025-04-22T07:08:09.789170+00:00",
+          "last_seen_dt": "2025-04-22T07:14:14.737829+00:00",
           "last_seen_by": "monitoring",
-          "created_dt": "2025-04-22T07:08:09.789172+00:00",
-          "updated_dt": "2025-04-22T07:08:09.789173+00:00",
+          "created_dt": "2025-04-22T07:14:14.737833+00:00",
+          "updated_dt": "2025-04-22T07:14:14.737835+00:00",
           "assets_interfaces_ips": [
             {
               "ainip_id": 3001,
               "ainip_unique_id": "IP-SRV-PROD-001-00:1A:2B:3C:4D:5E",
               "ainip_type": "IPv4",
               "ainip_value": "192.168.1.100",
-              "ainip_first_seen_dt": "2025-04-22T07:08:09.789339+00:00",
+              "ainip_first_seen_dt": "2025-04-22T07:14:14.738112+00:00",
               "ainip_first_seen_by": "deployment",
-              "ainip_last_seen_dt": "2025-04-22T07:08:09.789343+00:00",
+              "ainip_last_seen_dt": "2025-04-22T07:14:14.738118+00:00",
               "ainip_last_seen_by": "monitoring",
-              "created_dt": "2025-04-22T07:08:09.789344+00:00",
-              "updated_dt": "2025-04-22T07:08:09.789346+00:00"
+              "created_dt": "2025-04-22T07:14:14.738121+00:00",
+              "updated_dt": "2025-04-22T07:14:14.738124+00:00"
             }
           ]
         }
