@@ -1,0 +1,13 @@
+# Ignorar archivo Excel original
+assets_limpio.xlsx
+
+# Ignorar entorno virtual (por si lo usás)
+.venv/
+
+# Ignorar configuraciones del IDE (como PyCharm o VSCode)
+.idea/
+.vscode/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
