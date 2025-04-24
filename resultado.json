@@ -4,88 +4,61 @@
       "auser_id": 1,
       "customer_id": 101,
       "auser_username": "usuario_admin",
-      "auser_first_seen_dt": "2025-04-22T13:32:30.231502+00:00",
+      "auser_first_seen_dt": "2025-04-24T08:49:15.440740+00:00",
       "auser_first_seen_by": "system",
-      "auser_last_seen_dt": "2025-04-22T13:32:30.231520+00:00",
+      "auser_last_seen_dt": "2025-04-24T08:49:15.440756+00:00",
       "auser_last_seen_by": "audit_scan",
-      "created_dt": "2025-04-22T13:32:30.231524+00:00",
-      "updated_dt": "2025-04-22T13:32:30.231528+00:00"
+      "created_dt": "2025-04-24T08:49:15.440759+00:00",
+      "updated_dt": "2025-04-24T08:49:15.440760+00:00"
     }
   ],
   "assets": [
     {
-      "asset_id": 1001,
+      "AssetId": "SRV-PROD-001",
       "customer_id": 101,
-      "asset_unique_id": "SRV-PROD-001",
-      "exple_id": 50,
-      "safie_id": 75,
-      "zone_id": 3,
-      "asset_name": "Servidor Producción Principal",
-      "asset_alias": "SRVPROD01",
-      "asset_desc": "Servidor principal para aplicaciones de producción",
-      "asset_type": "servidor",
-      "asset_status": "activo",
-      "asset_value": 8,
-      "asset_acquisition_dt": "2022-05-10T00:00:00+00:00",
-      "asset_location": "Rack 5, Data Center Principal",
-      "asset_additional_info": "Sistema operativo: Linux",
-      "asset_owner": "Departamento IT",
-      "asset_owner_contact": "it@ejemplo.com",
-      "asset_business_owner": "Alex",
-      "asset_business_owner_contact": "alex@gmail.com",
-      "asset_tech_owner": "Diego",
-      "asset_tech_owner_contact": "Diego@gmail.com",
-      "asset_risk_score_sum": 65,
-      "asset_last_reported_dt": "2025-04-22T13:32:30.241164+00:00",
-      "asset_impact_confidentiality": 3,
-      "asset_impact_integrity": 4,
-      "asset_impact_availability": 5,
-      "asset_impact_criticality": 4,
-      "socia_risk": "MEDIO",
-      "socia_risk_updated_dt": "2025-04-22T13:32:30.241173+00:00",
-      "created_dt": "2025-04-22T13:32:30.241176+00:00",
-      "updated_dt": "2025-04-22T13:32:30.241179+00:00",
-      "assets_ausers": [
-        {
-          "asaus_id": 5001,
-          "auser_id": 1,
-          "asaus_first_seen_dt": "2025-04-22T13:32:30.241826+00:00",
-          "asaus_first_seen_by": "scan",
-          "asaus_last_seen_dt": "2025-04-22T13:32:30.241835+00:00",
-          "asaus_last_seen_by": "monitor",
-          "created_dt": "2025-04-22T13:32:30.241838+00:00",
-          "updated_dt": "2025-04-22T13:32:30.241841+00:00"
-        }
-      ],
-      "assets_interfaces": [
+      "Name": "Servidor Producción Principal",
+      "Type": "servidor",
+      "Location": "Rack 5, Data Center Principal",
+      "Status": "activo",
+      "AcquisitionDate": "2022-05-10T00:00:00+00:00",
+      "Owner": "Departamento IT",
+      "Value": 8,
+      "AdditionalInfo": "Sistema operativo: Linux",
+      "Interfaces": [
         {
           "asint_id": 2001,
           "asint_unique_id": "00:1A:2B:3C:4D:5E",
           "mac_address": "00:1A:2B:3C:4D:5E",
-          "first_seen_dt": "2025-04-22T13:32:30.242278+00:00",
+          "first_seen_dt": "2025-04-24T08:49:15.443748+00:00",
           "first_seen_by": "deployment",
-          "last_seen_dt": "2025-04-22T13:32:30.242286+00:00",
+          "last_seen_dt": "2025-04-24T08:49:15.443754+00:00",
           "last_seen_by": "monitoring",
-          "created_dt": "2025-04-22T13:32:30.242289+00:00",
-          "updated_dt": "2025-04-22T13:32:30.242292+00:00",
+          "created_dt": "2025-04-24T08:49:15.443756+00:00",
+          "updated_dt": "2025-04-24T08:49:15.443757+00:00",
           "assets_interfaces_ips": [
             {
               "ainip_id": 3001,
               "ainip_unique_id": "IP-SRV-PROD-001-00:1A:2B:3C:4D:5E",
               "ainip_type": "IPv4",
               "ainip_value": "192.168.1.100",
-              "ainip_first_seen_dt": "2025-04-22T13:32:30.242631+00:00",
+              "ainip_first_seen_dt": "2025-04-24T08:49:15.443973+00:00",
               "ainip_first_seen_by": "deployment",
-              "ainip_last_seen_dt": "2025-04-22T13:32:30.242638+00:00",
+              "ainip_last_seen_dt": "2025-04-24T08:49:15.443977+00:00",
               "ainip_last_seen_by": "monitoring",
-              "created_dt": "2025-04-22T13:32:30.242641+00:00",
-              "updated_dt": "2025-04-22T13:32:30.242644+00:00"
+              "created_dt": "2025-04-24T08:49:15.443978+00:00",
+              "updated_dt": "2025-04-24T08:49:15.443980+00:00"
             }
           ]
         }
       ],
-      "assets_cpes": [],
-      "assets_properties": []
+      "CPEs": [
+        {
+          "ascpe_id": 4001,
+          "ascpe_value": 301,
+          "created_dt": "2025-04-24T08:49:15.444197+00:00",
+          "updated_dt": "2025-04-24T08:49:15.444200+00:00"
+        }
+      ]
     }
   ]
 }
